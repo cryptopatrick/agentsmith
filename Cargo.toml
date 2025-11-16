@@ -1,0 +1,27 @@
+[package]
+name = "agentsmith"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = "AI Agent forging utilities."
+documentation = "https://docs.rs/agentsmith"
+homepage = "https://github.com/cryptopatrick/agentsmith"
+repository = "https://github.com/cryptopatrick/agentsmith"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "agentsmith"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
