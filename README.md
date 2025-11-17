@@ -136,14 +136,14 @@ Built specifically for [Rig](https://github.com/0xPlaygrounds/rig) agents, Agent
 └──────────────┬──────────────────────────┬────────────────┘
                │                          │
        ┌───────▼────────┐        ┌────────▼─────────┐
-       │    Rig Agent    │        │   AgentHistory   │
-       │  • GPT-4/etc    │        │  • SQLite Pool   │
-       │  • Custom LLM   │        │  • FTS5 Search   │
-       │  • Tools        │        │  • JSONL Import  │
-       └─────────────────┘        │  • Summarization │
-                                  └─────────┬────────┘
-                                            │
-                                   ┌────────▼────────┐
+       │    Rig Agent   │        │   AgentHistory   │
+       │  • GPT-4/etc   │        │  • SQLite Pool   │
+       │  • Custom LLM  │        │  • FTS5 Search   │
+       │  • Tools       │        │  • JSONL Import  │
+       └────────────────┘        │  • Summarization │
+                                 └─────────┬────────┘
+                                           │
+                                   ┌────────▼ ────────┐
                                    │  SQLite Database │
                                    │  • sessions      │
                                    │  • traces        │
