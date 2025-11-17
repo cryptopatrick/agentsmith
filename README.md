@@ -119,7 +119,7 @@ Built specifically for [Rig](https://github.com/0xPlaygrounds/rig) agents, Agent
 ## Architecture
 
 1. Overall Architecture
-
+```diagram
 ┌──────────────────────────────────────────────────────────┐
 │           User Application (CLI/Backend/App)             │
 │              Single call: smart_agent.chat()             │
@@ -149,6 +149,7 @@ Built specifically for [Rig](https://github.com/0xPlaygrounds/rig) agents, Agent
                                    │  • traces        │
                                    │  • traces_fts    │
                                    └──────────────────┘
+```
 
 User → SmartAgent → History Search → Rig Agent → Log Response → SQLite
 
