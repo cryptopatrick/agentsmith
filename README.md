@@ -1,6 +1,12 @@
 <h1 align="center">
   <br>
-  AgentSmith
+    <img 
+      src="https://github.com/cryptopatrick/factory/blob/master/img/100days/agentsmith.png" 
+      alt="AgentSmith" 
+      width="200"
+    />
+  <br>
+  AGENTSMITH
   <br>
 </h1>
 
