@@ -25,7 +25,7 @@
     <img src="https://docs.rs/agentsmith/badge.svg" alt="Documentation"/>
   </a>
   <a href="LICENSE" target="_blank">
-    <img src="https://img.shields.io/github/license/cryptopatrick/agentsmith.svg" alt="GitHub license"/>
+    <img src="https://img.shields.io/github/license/sulu/sulu.svg" alt="GitHub license"/>
   </a>
 </p>
 
