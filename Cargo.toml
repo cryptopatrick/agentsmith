@@ -1,6 +1,6 @@
 [package]
 name = "agentsmith"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
 
@@ -10,7 +10,7 @@ documentation = "https://docs.rs/agentsmith"
 homepage = "https://github.com/cryptopatrick/agentsmith"
 repository = "https://github.com/cryptopatrick/agentsmith"
 readme = "README.md"
-keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+keywords = ["AI", "Agentic", "Utilities"]
 license = "MIT"
 autotests = false
 
@@ -25,3 +25,16 @@ path = "tests/test.rs"
 
 ###############################################################################
 [dependencies]
+rig-core = "0.2.1"
+sqlx = { version = "0.8", features = ["runtime-tokio-rustls", "sqlite", "chrono", "json", "uuid"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.8", features = ["v4"] }
+tracing = "0.1"
+anyhow = "1.0"
+thiserror = "2.0"
+
+[dev-dependencies]
+tempfile = "3.0"
