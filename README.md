@@ -62,6 +62,7 @@ If you have any questions or need more info, then please <a href="https://discor
         <li><a href="#-smart-agent-features">Smart Agent Features</a></li>
         <li><a href="#-persistence">Persistence</a></li>
       </ul>
+    <li><a href="#-architecture">Architecture</a></li>
     <li><a href="#-how-to-use">How to Use</a></li>
     <li><a href="#-examples">Examples</a></li>
     <li><a href="#-testing">Testing</a></li>
