@@ -117,7 +117,7 @@ Built specifically for [Rig](https://github.com/0xPlaygrounds/rig) agents, Agent
 - **Session Continuity**: Resume conversations across process restarts
 - **Export Capabilities**: Import/export conversation history
 
-## Architecture
+## 📐 Architecture
 
 1. 🏛 Overall Architecture
 ```diagram
